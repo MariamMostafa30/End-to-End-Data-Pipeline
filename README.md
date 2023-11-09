@@ -70,16 +70,17 @@ Ensure that you have the following installed:
             spark-shell
            ```
 		 
-4. If you do not have Anaconda or Python, please follow the instructions in the reference anaconda installation guidance.
+4. If you do not have Anaconda or Python, please follow the instructions in the reference below anaconda installation guidance.
+   https://www.datacamp.com/tutorial/installing-anaconda-windows
 
-5. Download spark jar packages from mvn repository site https://mvnrepository.com/
+6. Download spark jar packages from mvn repository site https://mvnrepository.com/
 	1. Search for hadoop-aws 
 	2. Please make sure that you choose the same version as hadoop winutils.exe 
 	3. While selecting your suitable version , you will know the corresponding java-bundle jar version  and the hadoop-common jar. 
 	4. Once you go to hadoop-common , you will know the corresponding gauva jar version. 
 	4. Download all jar files that were mentioned above then copy-paste in spark Jars folder. 
 	
-6. Download Power BI Desktop.
+7. Download Power BI Desktop.
 
 ## Project Stages
   
