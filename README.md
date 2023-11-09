@@ -42,7 +42,9 @@ Ensure that you have the following installed:
 	6. To add JAVA_HOME, click on the New button under User variable for <USER>  enter your path
 	7. Add %JAVA_HOME%\bin in path variable 
 	8. Test Java Installation in cmd by using the following command:
-           ~~~ java -version ~~~
+           ```bash
+            java -version
+           ```
 			   
 2. Nifi installation and download steps 
 	1. Go to the Apache NIFI site https://nifi.apache.org/download.html
@@ -64,7 +66,9 @@ Ensure that you have the following installed:
 	7. Create a folder called winutils in C drive and create a folder called bin inside. Then, move the downloaded winutils file to the bin folder.
 	8. Add  %HADOOP_HOME%\bin to the path variable.
 	9. Test spark installation by typing in cmd the following command:
-           ~~~ spark-shell ~~~
+           ```bash
+            spark-shell
+           ```
 		 
 4. If you do not have Anaconda or Python, please follow the instructions in the reference anaconda installation guidance.
 
@@ -160,7 +164,11 @@ Fill null values for 'brand' and 'category_code' columns with appropriate defaul
 **Build a Data Model**
 Create tables for customers, products, categories, brands, event types, and date dimensions.
 Build a transactions fact table with the necessary details.
-Use ~~~!pip install faker ~~~ to install the faker library to create fake names,emails and address.
+Use 
+```bash
+!pip install faker
+```
+to install the faker library to create fake names,emails and address.
 **Save Dimensions and Fact Tables in Databricks**
 ![Tables in Databricks](PipelineFlow/tables_in_databricks.PNG)
 
